@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ridesharing Lock Screen</string>
+    <string name="no_ride_details">Updating ride details...</string>
+
+    <string name="call_driver_button_text">Call driver</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="on_my_way_button_text">Text \"On my way\"</string>
+    <string name="share_eta_button_text">Share ETA</string>
+    <string name="close_button_text">Close</string>
+    <string name="accept_cancellation_fee_button_text">Accept fee</string>
+    <string name="ride_button_text">Ride</string>
+    <string name="on_my_way_sms_message">ON MY WAY</string>
+
+    <plurals name="accepted_main_message_pattern">
+        <item quantity="one">%1$s is %2$d minute away</item>
+        <item quantity="other">%1$s is %2$d minutes away</item>
+    </plurals>
+    <string name="accepted_main_details_pattern">Pickup at %1$s</string>
+    <string name="accepted_additional_details_pattern">%1$s %2$s - %3$s</string>
+    <string name="arrived_main_message_pattern">%1$s has arrived!</string>
+    <string name="minutes_eta_pattern"><![CDATA[%1$d min ETA <font color=%2$s> until destination</font>]]></string>
+    <string name="droppedoff_main_message">You have arrived!</string>
+    <string name="droppedoff_main_details_pattern">Trip total: %1$s%2$.2f</string>
+    <string name="canceled_main_message">Ride canceled</string>
+    <string name="canceled_main_details_message">Cancellation fee charged.</string>
+    <string name="confirm_cancellation_main_message">Accept ride cancellation fee</string>
+    <string name="confirm_cancellation_main_details">You may be charged %s for cancelling your ride</string>
+    <string name="confirm_cancellation_unknown_fee_main_details">You may be charged a fee for cancelling your ride</string>
+    <string name="confirm_cancellation_reason_main_message">Confirm ride cancellation</string>
+    <string name="confirm_cancellation_reason_main_details">Please tell us why you\'re cancelling:</string>
+    <string name="placeholder_main_message">No current ride</string>
+
+    <string name="settings_account">Account Settings</string>
+    <string name="settings_manage">Manage Account</string>
+    <string name="settings_help">Help &amp; Support</string>
+    <string name="settings_disconnect">Disconnect Account</string>
+    <string name="settings_setup">Tap to set up</string>
+
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ridesharing</string>
+    <string name="dd_looking_nearby">Searching\u2026</string>
+    <string name="dd_request_a_ride">Request a ride</string>
+    <string name="dd_tap_to_setup">Tap to set up</string>
+    <plurals name="dd_ride_eta">
+        <item quantity="one">One minute away</item>
+        <item quantity="other">%d minutes away</item>
+    </plurals>
+</resources>

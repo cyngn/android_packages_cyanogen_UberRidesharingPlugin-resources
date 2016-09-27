@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UberPlugin</string>
+    <string name="mock_app_name">MockUberPlugin</string>
+    <string name="provider_display_name">Uber</string>
+    <string name="mock_provider_display_name">MockUber</string>
+    <string name="app_description">Rides by Uber</string>
+    <string name="partner_app_package" translatable="false">com.ubercab</string>
+    <string name="partner_support_url" translatable="false">https://help.uber.com/</string>
+    <string name="partner_account_url" translatable="false">https://riders.uber.com/trips</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_uber_login" translatable="false">Uber setup</string>
+
+    <!-- Error cases descriptions -->
+    <string name="uber_resolution_support_url" translatable="false">https://riders.uber.com</string>
+    <string name="uber_support_email" translatable="false">support@uber.com</string>
+    <string name="unconfirmed_email_description">Please confirm your email address with Uber through native Uber mobile
+        application or by visiting https://riders.uber.com
+    </string>
+    <string name="invalid_payment_description">Your registered payment method is invalid. Please update the payment
+        and billing information with Uber before calling a ride.
+    </string>
+    <string name="forbidden_description">You are forbidden from making a ride request at this time and should consult
+        our support team by visiting https://help.uber.com or by emailing support@uber.com
+    </string>
+    <string name="unverified_description">Please confirm your mobile phone number with Uber using the native Uber mobile
+        application or by visiting https://riders.uber.com
+    </string>
+    <string name="product_not_allowed_description">The requested ride type is not available. Please select a different
+        ride type to successfully make a request.
+    </string>
+    <string name="pay_balance_description">You have an outstanding balance. Please update your account settings by
+        using the native mobile application or by visiting https://riders.uber.com
+    </string>
+    <string name="user_not_allowed_description">You are currently banned and are not permitted to request a ride.
+    </string>
+    <string name="too_many_cancelations_description">You are temporarily blocked from making ride requests due to
+        cancelling too many times.
+    </string>
+    <string name="missing_national_id_description">For regulatory reasons, certain jurisdictions require Uber users to
+        register their national ID number or passport number before taking a ride. Please enter your national ID
+        number or passport number through native Uber app before requesting a ride.
+    </string>
+    <string name="not_found_description">An invalid product ID was requested. Retry the API call with a valid product
+        ID.
+    </string>
+    <string name="no_drivers_available_description">No drivers are available for the requested ride type at this moment.
+        Please select a different ride type or to wait until more drivers become available.
+    </string>
+    <string name="missing_payment_method_description">You must have at least one payment method registered with Uber to
+        request a ride. Please add a payment method by using the native mobile application or by visiting
+        https://riders.uber.com before requesting a ride.
+    </string>
+    <string name="fare_expired_description">The fare has expired for the requested ride type. Please get estimates
+        again, confirm the new fare, and then request again.
+    </string>
+    <string name="retry_request_description">An error has occurred when the attempting to request a ride type. Please
+        reattempt the request on behalf of the user.
+    </string>
+    <string name="destination_required_description">This ride type requires setting a destination for ride requests.
+        Please enter a destination before retrying.
+    </string>
+    <string name="validation_failed_description">The destination is not supported for UberPOOL. Please enter a
+        valid destination.</string>
+    <string name="invalid_seat_count_description">Number of seats exceeds max capacity.</string>
+    <string name="internal_server_error_description">An unknown error has occurred.</string>
+    <string name="surge_description">Surge pricing is currently in effect for this ride type. Please confirm the surge
+        pricing before making ride request.
+    </string>
+</resources>
